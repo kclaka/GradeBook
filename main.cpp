@@ -12,6 +12,7 @@ int main() {
     getline(cin, nameOfCourse);
     mygradebook1.setCourseName(nameOfCourse);
     mygradebook1.displayMessage();
+    mygradebook1.displayAverage();
     cout<<endl;
     return 0;
 }
